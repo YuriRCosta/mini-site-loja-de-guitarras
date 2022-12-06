@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Imagens</title>
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menulines").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+        function closenav() {
+            document.getElementById("nav").style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+
+<header>
+    <div class="container-header">
+        <div class="logo">
+            <img src="logo.webp">
+            <div class="logotext">Guitar Store</div>
+        </div>
+        <div class="menu">
+            <nav>
+                <div class="menulines">
+                    <div class="menuline"></div>
+                    <div class="menuline"></div>
+                    <div class="menuline"></div>
+                </div>
+                <ul id="nav">
+                    <li><a href="">INICIO</a> </li>
+                    <li><a href="">ENCOMENDA</a> </li>
+                    <li><a href="">SOBRE</a> </li>
+                    <li><a href="">NOVIDADES</a> </li>
+                    <li><a href="">MAIS GUITARRAS</a> </li>
+                    <li><a href="">VIOLÕES</a> </li>
+                    <li><a href="">BAIXOS</a> </li>
+                    <li><a href="">PALHETAS</a> </li>
+                    <li><a href="">CONTATO</a> </li>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closenav()"> &times;</a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="corpo">
+        <div class="container">
+            <div class="guitarmodel">
+                <div class="title">Les Paul</div>
+                <div class="guitars">
+                    <img src="lespaul1.png">
+                    <img src="lespaul2.png">
+                    <img src="lespaul3.png">
+                    <img src="lespaul4.png">
+                </div>
+                <a href="" class="button">Buy now</a>
+            </div>
+            <div class="guitarmodel">
+                <div class="title">Stratocaster</div>
+                <div class="guitars">
+                    <img src="stratocaster1.png">
+                    <img src="stratocaster2.png">
+                    <img src="stratocaster3.png">
+                    <img src="stratocaster4.png">
+                </div>
+                <a href="" class="button">Buy now</a>
+            </div>
+            <div class="guitarmodel">
+                <div class="title">Flying V</div>
+                <div class="guitars">
+                    <img src="v1.png">
+                    <img src="v2.png">
+                    <img src="v3.png">
+                    <img src="v4.png">
+                </div>
+                <a href="" class="button">Buy now</a>
+            </div>
+            <div class="guitarmodel">
+                <div class="title">Telecaster</div>
+                <div class="guitars">
+                    <img src="telecaster1.png">
+                    <img src="telecaster2.png">
+                    <img src="telecaster3.png">
+                    <img src="telecaster4.png">
+                </div>
+                <a href="" class="button">Buy now</a>
+            </div>
+            <div class="guitarmodel">
+                <div class="title">SG</div>
+                <div class="guitars">
+                    <img src="sg1.png">
+                    <img src="sg2.png">
+                    <img src="sg3.png">
+                    <img src="sg1.png">
+                </div>
+                <a href="" class="button">Buy now</a>
+            </div>
+            <div class="guitarmodel">
+                <div class="title">Explorer</div>
+                <div class="guitars">
+                    <img src="explorer1.png">
+                    <img src="explorer2.png">
+                    <img src="explorer3.png">
+                    <img src="explorer1.png">
+                </div>
+                <a href="" class="button">Buy now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>
